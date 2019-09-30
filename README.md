@@ -1,0 +1,2 @@
+# simple-json-tool
+Sanity checking for json files. json_pretty.py simply reformats it to be human readable. json_check is actually redundant, as what it is checking can't be present if the json was loaded at all, but it's there as a sanity checker to prove that a "duplicate keys" error message on a certain program is not present in a file. The json_pretty exists for personal use, the json_check likely won't be used at all ever again.
